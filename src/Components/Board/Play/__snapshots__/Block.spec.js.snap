@@ -1,0 +1,21 @@
+exports[`test Play/Block matches snapshot selected false 1`] = `
+<div
+  className="block"
+  onClick={[Function]}
+  style={
+    Object {
+      "width": 50,
+    }
+  } />
+`;
+
+exports[`test Play/Block matches snapshot selected true 1`] = `
+<div
+  className="block selected"
+  onClick={[Function]}
+  style={
+    Object {
+      "width": 50,
+    }
+  } />
+`;

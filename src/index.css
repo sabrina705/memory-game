@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.App {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.block {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+    float: left;
+    background: white;
+}
+
+.Memorize .gem, .gameOver .gem {
+    background: red !important;
+}
+
+.Play .selected {
+    background: gold;
+}
+
+.gameOver {
+    position: relative;
+}
+
+.gameOver .gameOver__overlay {
+    background-color: rgba(138, 138, 138, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
